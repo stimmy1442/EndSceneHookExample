@@ -9,11 +9,11 @@ Currently, only 32 bit DirectX 9 games are supported. To be honest, I just teste
 
 # How to use
 * Open the project "InjectedDLL". If necessary, change the VC++ directories so that the DirectX SDK is within the include and library paths
-* Complie the project (configuration Release, x86)
+* Set the project configuration to 'Release' and 'x86', and build the project
 * Open the project DLLInjector/DLLInjectV2 in Visual Studio
 * Change the variables "HaloFile" and "HaloFolder" to the path/executable of the game you want to display the overlay in
 * Copy the DLL from InjectedDLL\Release\InjectedDLL.dll to DLLInjector\Release or DLLInjector\Debug (depending on if you complie it on debug or release config)
-* Compile the DLL injector and run it as administrator (the DLL injection needs admin rights)
+* Set the project configuration to 'Release' and 'x86', compile the DLL injector and run it as administrator (the DLL injection needs admin rights)
 * The DLL injector should now start the game, inject the DLL, and you should see the game with the screen overlay
 
 # How does it work?
