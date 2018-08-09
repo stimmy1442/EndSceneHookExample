@@ -28,6 +28,7 @@ After finding the VMT, it backs up the function pointer to EndScene() in a varia
 This custom function now draws the overlay elements on the screen, and then calls the original EndScene().
 
 For more information, refer to the included PowerPoint presentation, or to the explanatory YouTube video:
+https://youtu.be/w3xn0zI0Fq0
 
 # License
 As said, some of the code is from https://www.unknowncheats.me/wiki/Direct3D:DirectX_9_EndScene_Midfunction_Hook_Example, no license is stated here.
